@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RemindMe" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.RemindMe" parent="Base.Theme.RemindMe" />
+    <style name="DialogTheme" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="colorAccent">@color/primary</item>
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="MyDatePickerStyle" parent="android:Widget.Material.Light.DatePicker">
+        <item name="android:headerBackground">@color/primary</item>
+        <item name="android:calendarTextColor">@color/primary</item>
+        <item name="android:dayOfWeekBackground">@color/primary</item>
+        <item name="android:dayOfWeekTextAppearance">@color/primary</item>
+    </style>
+</resources>
